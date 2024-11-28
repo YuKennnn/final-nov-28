@@ -1,0 +1,144 @@
+    *{
+        margin:0px
+        
+    }
+    body{
+        background-color:#F7F8F9;
+        background-image: url('/assets/images/lockerbg.jpg');
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+        color: #304050;
+        font-family: Inter var,Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    }
+
+    .container{
+        background-color: #FFFFFF;
+        width: 375px;
+        height: 667px;
+        
+        
+    }
+    .logo{
+        width: 55%;
+        padding-bottom: 50px;
+    }
+    .container-crl{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+    }
+    h2, .container-crl>p{
+        padding-bottom: 20px;
+        
+    }
+
+    .container-crl>p>a:hover{
+        opacity: 0.6;
+        transition: 0.2s ease all;
+    }
+    h2{
+        font-size: 22px;
+    }
+    .ep{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input[type="text"], input[type="password"]{
+        height: 25px;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        margin-bottom: 20px;
+        padding: 5px 3px;
+        width: 80%;
+        
+    }
+    h4>a{
+        color: #8895a1;
+        font-weight: lighter;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    .check{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 35px;
+        padding-bottom: 20px;
+    }
+    label{
+        padding-left: 10px;
+    }
+
+    h4{
+        display: block;
+        padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    transition: 0.2s ease all;
+        
+    }
+    h4:hover{
+        opacity: 0.6;
+        transition: 0.2s ease all;
+    }
+    input[type="submit"]{
+        width: 82%;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    background-color: #27ae60;
+    color: white;
+    transition: 0.2s ease all;
+    margin-left: 35px;
+    
+    }   
+    input[type="text"]:focus, input[type="password"]:focus {
+        border-color: #27ae60; 
+        outline: none; 
+        background-color: #e6f7ff; 
+    }
+        
+
+    input[type="submit"]:hover{
+        background-color: #219150;
+        transition: 0.2s ease all;
+    }
+    @media only screen and (min-width: 737px) {
+        .container {
+        height: 500px;
+        box-shadow: 5px 3px 20px -3px #999999;
+        }
+    }
+
+    @media only screen and (min-width: 900px) {
+        .two-panel {
+        height: 500px;
+        width: 50%;
+        box-shadow: 5px 3px 20px -3px #999999;
+        background-image: url(https://kajabi-app-assets.global.ssl.fastly.net/assets/cycles/cambria/background-063926e2d706da558ce0cd6062e2d9405d5c2b4e378c243892276aa6a66e69a0.jpg);
+        background-size: cover;
+        
+        }
+        .big-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 750px;
+            
+            
+        }
+        
+        .tpt{
+            content: "The London dev cycle included many new features and updates designed to give you greater flexibility and more customization options.";
+            
+        }
+    }
